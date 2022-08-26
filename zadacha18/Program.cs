@@ -24,3 +24,36 @@ switch (Quarter)
     break;
 }
 
+
+// //  Напишите программу, которая по заданному
+// // номеру четверти, показывает диапазон 
+// // возможных координат точек в этой четверти 
+// // (x и y)
+
+// Console.WriteLine("Enter quater... ");
+// int quaternumber = int.Parse(Console.ReadLine());
+// if (quaternumber == 1)
+// {
+//     Console.WriteLine("x > 0, y > 0");
+
+// }
+// else if (quaternumber == 2)
+// {
+//     Console.WriteLine("x < 0, y > 0");
+
+// }
+// else if (quaternumber == 3)
+// {
+//     Console.WriteLine("x < 0, y < 0");
+
+// }
+// else if (quaternumber == 4)
+// {
+//     Console.WriteLine("x > 0, y < 0");
+
+// }
+// else
+// {
+//     Console.WriteLine("Bug Error");
+// }
+
