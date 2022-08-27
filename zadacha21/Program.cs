@@ -27,19 +27,19 @@
 ////находит расстояние между ними в 2D пространстве.
 
 Console.WriteLine("Enter x1...");
-int x1 = int.Parse(Console.ReadLine());
+int x1 = int.Parse(Console.ReadLine()!);
 
 Console.WriteLine("Enter y1...");
-int y1 = int.Parse(Console.ReadLine());
+int y1 = int.Parse(Console.ReadLine()!);
 
 Console.WriteLine("Enter x2...");
-int x2 = int.Parse(Console.ReadLine());
+int x2 = int.Parse(Console.ReadLine()!);
 
 Console.WriteLine("Enter y2...");
-int y2 = int.Parse(Console.ReadLine());
+int y2 = int.Parse(Console.ReadLine()!);
 
 double result = Math.Sqrt(Math.Pow((x2 - x1), 2) + Math.Pow((y2 - y1), 2));
 
 Console.WriteLine("длинна отрезка"+result);
 
-Console.WriteLine($"A ({x1},{y1}); B ({x2},{y2}) -> {result}");
+Console.WriteLine($"A ({x1},{y1}); B ({x2},{y2}) = {result:f3}");
